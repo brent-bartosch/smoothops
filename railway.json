@@ -6,7 +6,6 @@
   },
   "deploy": {
     "startCommand": "node scrapers/linkedin-scan.js",
-    "cronSchedule": "0 13 * * *",
     "restartPolicyType": "NEVER"
   }
 }
