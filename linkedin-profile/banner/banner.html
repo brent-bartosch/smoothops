@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Crossten"; src: url("fonts/Crossten-ExtraBold.ttf") format("truetype"); font-weight: 800; }
+  @font-face { font-family: "Inter"; src: url("fonts/Inter-500.woff2") format("woff2"); font-weight: 500; }
+  html, body { margin: 0; padding: 0; }
+  body { width: 1584px; height: 396px; background: #0e3a87; overflow: hidden; position: relative; }
+  /* Left ~30% stays empty: the headshot sits bottom-left on desktop and larger on mobile. */
+  .block { position: absolute; right: 96px; top: 0; height: 396px; width: 960px;
+           display: flex; flex-direction: column; justify-content: center; align-items: flex-end; text-align: right; }
+  .wordmark { height: 64px; width: auto; display: block; }
+  .rule { width: 420px; height: 3px; background: #82c3ce; margin: 30px 0 26px; }
+  .line { font-family: "Crossten"; font-weight: 800; color: #ffffff; font-size: 42px; line-height: 1.12; letter-spacing: -0.005em; margin: 0; }
+  .line span { color: #82c3ce; }
+  .url { font-family: "Inter"; font-weight: 500; color: #82c3ce; font-size: 20px; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 22px; }
+</style>
+</head>
+<body>
+  <div class="block">
+    <img class="wordmark" src="smoothed-logo-dark-bg.png" alt="Smoothed">
+    <div class="rule"></div>
+    <p class="line">Production AI agent systems<br>for B2B SaaS <span>go-to-market</span> teams</p>
+    <div class="url">smoothed.io</div>
+  </div>
+</body>
+</html>
