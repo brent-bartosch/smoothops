@@ -68,3 +68,7 @@ outreach/
 
 # Local PDF exports (article-digest.md is source of truth)
 article-digest.pdf
+
+# Private, user-layer: never publish (repo is public)
+linkedin-profile/
+.claude/threads/
